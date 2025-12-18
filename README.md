@@ -23,17 +23,18 @@ The application is containerized using Docker and deployed on AWS EC2.
 docker build -t inference-api .
 
 ##### Deployment
-
+```bash
 The application is deployed on AWS EC2 and is publicly accessible.
 
 - Live API URL: http://13.203.231.64
 - Swagger UI: http://13.203.231.64/docs
 
 ###### CI/CD Pipeline
-
+```bash
 This project implements a Continuous Integration and Continuous Deployment (CI/CD) pipeline using GitHub Actions.
 
 # CI/CD Workflow
+```bash
 - On every push to the `main` branch:
   - The source code is checked out
   - Dependencies are installed
